@@ -27,10 +27,12 @@ public class SearchItineraryActivity extends AppCompatActivity{
                     text="Vous devez remplir le départ et la destination !";
                     Toast.makeText(context,text,duration).show();
                 }else{
+                    SearchRequestModel request=new SearchRequestModel(
+                            editTextSearchDepa.getText().toString(),
+                            editTextSearchDest.getText().toString(),
+                            editTextSearchDate.getText().toString());
                     Intent toPage3=new Intent(SearchItineraryActivity.this,ViewSearchItineraryResultsListActivity.class);
-                    toPage3.putExtra("DEPARTURE",editTextSearchDepa.getText().toString());
-                    toPage3.putExtra("DESTINATION",editTextSearchDest.getText().toString());
-                    toPage3.putExtra("DATE",editTextSearchDate.getText().toString());
+                    toPage3.putExtra("REQUEST",request);
                     startActivity(toPage3);
                 }
             }
