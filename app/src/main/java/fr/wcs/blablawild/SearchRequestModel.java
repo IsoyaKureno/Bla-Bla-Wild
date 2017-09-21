@@ -12,7 +12,6 @@ public class SearchRequestModel implements Parcelable{
         this.villeArrivee = a;
         this.dateTrajet = t;
     }
-
     public SearchRequestModel(Parcel in) {
         this.villeDepart = in.readString();
         this.villeArrivee = in.readString();
