@@ -7,33 +7,25 @@
         android:id="@+id/textViewDepartureTime"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="16dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:text="TextView" />
+        android:layout_marginTop="16dp" />
 
     <TextView
         android:id="@+id/textViewFirstName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textViewDepartureTime"
         android:layout_alignStart="@+id/textViewDepartureTime"
         android:layout_below="@+id/textViewDepartureTime"
-        android:layout_marginTop="16dp"
-        android:text="TextView" />
+        android:layout_marginTop="16dp" />
 
     <TextView
         android:id="@+id/textViewViewPrice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
         android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginTop="16dp"
-        android:text="TextView" />
+        android:layout_marginTop="16dp" />
 </RelativeLayout>

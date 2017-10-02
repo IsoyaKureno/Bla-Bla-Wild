@@ -48,8 +48,7 @@ public class SearchItineraryActivity extends AppCompatActivity{
                         myCalendar.get(Calendar.DAY_OF_MONTH)).show();
             }
         });
-        Button buttonSearch;
-        buttonSearch=(Button)findViewById(R.id.buttonSearch);
+        Button buttonSearch=(Button)findViewById(R.id.buttonSearch);
         buttonSearch.setOnClickListener(new View.OnClickListener(){
             @Override public void onClick(View view){
                 if(editTextSearchDepa.getText().toString().equals("")||editTextSearchDest.getText().toString().equals("")){

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bla Bla Wild</string>
+    <string name="date">Date</string>
+    <string name="depart">Departure</string>
+    <string name="destination">Destination</string>
+    <string name="recherche1">SEARCH ITINERARY</string>
+    <string name="recherche2">SEARCH</string>
+    <string name="search_text">Search</string>
+</resources>
